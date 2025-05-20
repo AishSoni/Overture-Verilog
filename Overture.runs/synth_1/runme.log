@@ -1,0 +1,708 @@
+
+*** Running vivado
+    with args -log OVERTURE.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source OVERTURE.tcl
+
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Fri May 16 13:58:09 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source OVERTURE.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental {E:/Vivado Projects/Overture/Overture.srcs/utils_1/imports/synth_1/OVERTURE.dcp}
+INFO: [Vivado 12-5825] Read reference checkpoint from E:/Vivado Projects/Overture/Overture.srcs/utils_1/imports/synth_1/OVERTURE.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top OVERTURE -part xc7z010iclg225-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010i'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010i'
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 5136
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 808.426 ; gain = 475.016
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'wire_6', assumed default net type 'wire' [E:/Turing Complete/custom_components/ALU.v:12]
+INFO: [Synth 8-11241] undeclared symbol 'wire_2', assumed default net type 'wire' [E:/Turing Complete/custom_components/ALU.v:12]
+INFO: [Synth 8-11241] undeclared symbol 'wire_0', assumed default net type 'wire' [E:/Turing Complete/custom_components/ALU.v:12]
+INFO: [Synth 8-11241] undeclared symbol 'wire_12', assumed default net type 'wire' [E:/Turing Complete/custom_components/ALU.v:12]
+INFO: [Synth 8-11241] undeclared symbol 'wire_8', assumed default net type 'wire' [E:/Turing Complete/custom_components/ALU.v:13]
+INFO: [Synth 8-11241] undeclared symbol 'wire_10', assumed default net type 'wire' [E:/Turing Complete/custom_components/ALU.v:13]
+INFO: [Synth 8-11241] undeclared symbol 'wire_13', assumed default net type 'wire' [E:/Turing Complete/custom_components/ALU.v:14]
+INFO: [Synth 8-11241] undeclared symbol 'wire_3', assumed default net type 'wire' [E:/Turing Complete/custom_components/ALU.v:14]
+INFO: [Synth 8-11241] undeclared symbol 'wire_4', assumed default net type 'wire' [E:/Turing Complete/custom_components/ALU.v:15]
+INFO: [Synth 8-11241] undeclared symbol 'wire_1', assumed default net type 'wire' [E:/Turing Complete/custom_components/ALU.v:16]
+INFO: [Synth 8-11241] undeclared symbol 'wire_16', assumed default net type 'wire' [E:/Turing Complete/custom_components/ALU.v:17]
+INFO: [Synth 8-11241] undeclared symbol 'wire_7', assumed default net type 'wire' [E:/Turing Complete/custom_components/ALU.v:18]
+INFO: [Synth 8-11241] undeclared symbol 'wire_17', assumed default net type 'wire' [E:/Turing Complete/custom_components/ALU.v:19]
+INFO: [Synth 8-11241] undeclared symbol 'wire_11', assumed default net type 'wire' [E:/Turing Complete/custom_components/ALU.v:20]
+INFO: [Synth 8-11241] undeclared symbol 'wire_18', assumed default net type 'wire' [E:/Turing Complete/custom_components/ALU.v:20]
+INFO: [Synth 8-11241] undeclared symbol 'wire_5', assumed default net type 'wire' [E:/Turing Complete/custom_components/ALU.v:22]
+INFO: [Synth 8-11241] undeclared symbol 'wire_14', assumed default net type 'wire' [E:/Turing Complete/custom_components/ALU.v:23]
+INFO: [Synth 8-11241] undeclared symbol 'wire_19', assumed default net type 'wire' [E:/Turing Complete/custom_components/ALU.v:24]
+INFO: [Synth 8-11241] undeclared symbol 'wire_9', assumed default net type 'wire' [E:/Turing Complete/custom_components/ALU.v:25]
+INFO: [Synth 8-11241] undeclared symbol 'wire_15', assumed default net type 'wire' [E:/Turing Complete/custom_components/ALU.v:26]
+WARNING: [Synth 8-8895] 'wire_0' is already implicitly declared on line 12 [E:/Turing Complete/custom_components/ALU.v:28]
+WARNING: [Synth 8-8895] 'wire_1' is already implicitly declared on line 16 [E:/Turing Complete/custom_components/ALU.v:29]
+WARNING: [Synth 8-8895] 'wire_2' is already implicitly declared on line 12 [E:/Turing Complete/custom_components/ALU.v:30]
+WARNING: [Synth 8-8895] 'wire_3' is already implicitly declared on line 14 [E:/Turing Complete/custom_components/ALU.v:31]
+WARNING: [Synth 8-8895] 'wire_4' is already implicitly declared on line 15 [E:/Turing Complete/custom_components/ALU.v:32]
+WARNING: [Synth 8-8895] 'wire_5' is already implicitly declared on line 22 [E:/Turing Complete/custom_components/ALU.v:33]
+WARNING: [Synth 8-8895] 'wire_6' is already implicitly declared on line 12 [E:/Turing Complete/custom_components/ALU.v:34]
+WARNING: [Synth 8-8895] 'wire_7' is already implicitly declared on line 18 [E:/Turing Complete/custom_components/ALU.v:36]
+WARNING: [Synth 8-8895] 'wire_8' is already implicitly declared on line 13 [E:/Turing Complete/custom_components/ALU.v:37]
+WARNING: [Synth 8-8895] 'wire_9' is already implicitly declared on line 25 [E:/Turing Complete/custom_components/ALU.v:39]
+WARNING: [Synth 8-8895] 'wire_10' is already implicitly declared on line 13 [E:/Turing Complete/custom_components/ALU.v:40]
+WARNING: [Synth 8-8895] 'wire_11' is already implicitly declared on line 20 [E:/Turing Complete/custom_components/ALU.v:41]
+WARNING: [Synth 8-8895] 'wire_12' is already implicitly declared on line 12 [E:/Turing Complete/custom_components/ALU.v:42]
+WARNING: [Synth 8-8895] 'wire_13' is already implicitly declared on line 14 [E:/Turing Complete/custom_components/ALU.v:43]
+WARNING: [Synth 8-8895] 'wire_14' is already implicitly declared on line 23 [E:/Turing Complete/custom_components/ALU.v:45]
+WARNING: [Synth 8-8895] 'wire_15' is already implicitly declared on line 26 [E:/Turing Complete/custom_components/ALU.v:46]
+WARNING: [Synth 8-8895] 'wire_16' is already implicitly declared on line 17 [E:/Turing Complete/custom_components/ALU.v:48]
+WARNING: [Synth 8-8895] 'wire_17' is already implicitly declared on line 19 [E:/Turing Complete/custom_components/ALU.v:49]
+WARNING: [Synth 8-8895] 'wire_18' is already implicitly declared on line 20 [E:/Turing Complete/custom_components/ALU.v:50]
+WARNING: [Synth 8-8895] 'wire_19' is already implicitly declared on line 24 [E:/Turing Complete/custom_components/ALU.v:51]
+INFO: [Synth 8-11241] undeclared symbol 'wire_1', assumed default net type 'wire' [E:/Turing Complete/custom_components/COND.v:11]
+INFO: [Synth 8-11241] undeclared symbol 'wire_9', assumed default net type 'wire' [E:/Turing Complete/custom_components/COND.v:11]
+INFO: [Synth 8-11241] undeclared symbol 'wire_23', assumed default net type 'wire' [E:/Turing Complete/custom_components/COND.v:11]
+INFO: [Synth 8-11241] undeclared symbol 'wire_0', assumed default net type 'wire' [E:/Turing Complete/custom_components/COND.v:11]
+INFO: [Synth 8-11241] undeclared symbol 'wire_12', assumed default net type 'wire' [E:/Turing Complete/custom_components/COND.v:12]
+INFO: [Synth 8-11241] undeclared symbol 'wire_16', assumed default net type 'wire' [E:/Turing Complete/custom_components/COND.v:12]
+INFO: [Synth 8-11241] undeclared symbol 'wire_8', assumed default net type 'wire' [E:/Turing Complete/custom_components/COND.v:12]
+INFO: [Synth 8-11241] undeclared symbol 'wire_22', assumed default net type 'wire' [E:/Turing Complete/custom_components/COND.v:12]
+INFO: [Synth 8-11241] undeclared symbol 'wire_15', assumed default net type 'wire' [E:/Turing Complete/custom_components/COND.v:12]
+INFO: [Synth 8-11241] undeclared symbol 'wire_18', assumed default net type 'wire' [E:/Turing Complete/custom_components/COND.v:12]
+INFO: [Synth 8-11241] undeclared symbol 'wire_6', assumed default net type 'wire' [E:/Turing Complete/custom_components/COND.v:12]
+INFO: [Synth 8-11241] undeclared symbol 'wire_17', assumed default net type 'wire' [E:/Turing Complete/custom_components/COND.v:12]
+INFO: [Synth 8-11241] undeclared symbol 'wire_3', assumed default net type 'wire' [E:/Turing Complete/custom_components/COND.v:12]
+INFO: [Synth 8-11241] undeclared symbol 'wire_5', assumed default net type 'wire' [E:/Turing Complete/custom_components/COND.v:13]
+INFO: [Synth 8-11241] undeclared symbol 'wire_19', assumed default net type 'wire' [E:/Turing Complete/custom_components/COND.v:14]
+INFO: [Synth 8-11241] undeclared symbol 'wire_11', assumed default net type 'wire' [E:/Turing Complete/custom_components/COND.v:15]
+INFO: [Synth 8-11241] undeclared symbol 'wire_4', assumed default net type 'wire' [E:/Turing Complete/custom_components/COND.v:16]
+INFO: [Synth 8-11241] undeclared symbol 'wire_20', assumed default net type 'wire' [E:/Turing Complete/custom_components/COND.v:17]
+INFO: [Synth 8-11241] undeclared symbol 'wire_21', assumed default net type 'wire' [E:/Turing Complete/custom_components/COND.v:18]
+INFO: [Synth 8-11241] undeclared symbol 'wire_2', assumed default net type 'wire' [E:/Turing Complete/custom_components/COND.v:19]
+INFO: [Synth 8-11241] undeclared symbol 'wire_7', assumed default net type 'wire' [E:/Turing Complete/custom_components/COND.v:20]
+INFO: [Synth 8-11241] undeclared symbol 'wire_14', assumed default net type 'wire' [E:/Turing Complete/custom_components/COND.v:21]
+INFO: [Synth 8-11241] undeclared symbol 'wire_10', assumed default net type 'wire' [E:/Turing Complete/custom_components/COND.v:21]
+INFO: [Synth 8-11241] undeclared symbol 'wire_13', assumed default net type 'wire' [E:/Turing Complete/custom_components/COND.v:22]
+WARNING: [Synth 8-8895] 'wire_0' is already implicitly declared on line 11 [E:/Turing Complete/custom_components/COND.v:25]
+WARNING: [Synth 8-8895] 'wire_1' is already implicitly declared on line 11 [E:/Turing Complete/custom_components/COND.v:26]
+WARNING: [Synth 8-8895] 'wire_2' is already implicitly declared on line 19 [E:/Turing Complete/custom_components/COND.v:28]
+WARNING: [Synth 8-8895] 'wire_3' is already implicitly declared on line 12 [E:/Turing Complete/custom_components/COND.v:29]
+WARNING: [Synth 8-8895] 'wire_4' is already implicitly declared on line 16 [E:/Turing Complete/custom_components/COND.v:30]
+WARNING: [Synth 8-8895] 'wire_5' is already implicitly declared on line 13 [E:/Turing Complete/custom_components/COND.v:31]
+WARNING: [Synth 8-8895] 'wire_6' is already implicitly declared on line 12 [E:/Turing Complete/custom_components/COND.v:32]
+WARNING: [Synth 8-8895] 'wire_7' is already implicitly declared on line 20 [E:/Turing Complete/custom_components/COND.v:33]
+WARNING: [Synth 8-8895] 'wire_8' is already implicitly declared on line 12 [E:/Turing Complete/custom_components/COND.v:34]
+WARNING: [Synth 8-8895] 'wire_9' is already implicitly declared on line 11 [E:/Turing Complete/custom_components/COND.v:35]
+WARNING: [Synth 8-8895] 'wire_10' is already implicitly declared on line 21 [E:/Turing Complete/custom_components/COND.v:36]
+WARNING: [Synth 8-8895] 'wire_11' is already implicitly declared on line 15 [E:/Turing Complete/custom_components/COND.v:38]
+WARNING: [Synth 8-8895] 'wire_12' is already implicitly declared on line 12 [E:/Turing Complete/custom_components/COND.v:39]
+WARNING: [Synth 8-8895] 'wire_13' is already implicitly declared on line 22 [E:/Turing Complete/custom_components/COND.v:41]
+WARNING: [Synth 8-8895] 'wire_14' is already implicitly declared on line 21 [E:/Turing Complete/custom_components/COND.v:42]
+WARNING: [Synth 8-8895] 'wire_15' is already implicitly declared on line 12 [E:/Turing Complete/custom_components/COND.v:43]
+WARNING: [Synth 8-8895] 'wire_16' is already implicitly declared on line 12 [E:/Turing Complete/custom_components/COND.v:44]
+WARNING: [Synth 8-8895] 'wire_17' is already implicitly declared on line 12 [E:/Turing Complete/custom_components/COND.v:45]
+WARNING: [Synth 8-8895] 'wire_18' is already implicitly declared on line 12 [E:/Turing Complete/custom_components/COND.v:46]
+WARNING: [Synth 8-8895] 'wire_19' is already implicitly declared on line 14 [E:/Turing Complete/custom_components/COND.v:47]
+WARNING: [Synth 8-8895] 'wire_20' is already implicitly declared on line 17 [E:/Turing Complete/custom_components/COND.v:48]
+WARNING: [Synth 8-8895] 'wire_21' is already implicitly declared on line 18 [E:/Turing Complete/custom_components/COND.v:49]
+WARNING: [Synth 8-8895] 'wire_22' is already implicitly declared on line 12 [E:/Turing Complete/custom_components/COND.v:50]
+WARNING: [Synth 8-8895] 'wire_23' is already implicitly declared on line 11 [E:/Turing Complete/custom_components/COND.v:51]
+INFO: [Synth 8-11241] undeclared symbol 'wire_6', assumed default net type 'wire' [E:/Turing Complete/custom_components/DEC.v:13]
+INFO: [Synth 8-11241] undeclared symbol 'wire_4', assumed default net type 'wire' [E:/Turing Complete/custom_components/DEC.v:13]
+INFO: [Synth 8-11241] undeclared symbol 'wire_3', assumed default net type 'wire' [E:/Turing Complete/custom_components/DEC.v:13]
+INFO: [Synth 8-11241] undeclared symbol 'wire_2', assumed default net type 'wire' [E:/Turing Complete/custom_components/DEC.v:14]
+INFO: [Synth 8-11241] undeclared symbol 'wire_0', assumed default net type 'wire' [E:/Turing Complete/custom_components/DEC.v:14]
+INFO: [Synth 8-11241] undeclared symbol 'wire_1', assumed default net type 'wire' [E:/Turing Complete/custom_components/DEC.v:14]
+INFO: [Synth 8-11241] undeclared symbol 'wire_5', assumed default net type 'wire' [E:/Turing Complete/custom_components/DEC.v:14]
+WARNING: [Synth 8-8895] 'wire_0' is already implicitly declared on line 14 [E:/Turing Complete/custom_components/DEC.v:16]
+WARNING: [Synth 8-8895] 'wire_1' is already implicitly declared on line 14 [E:/Turing Complete/custom_components/DEC.v:18]
+WARNING: [Synth 8-8895] 'wire_2' is already implicitly declared on line 14 [E:/Turing Complete/custom_components/DEC.v:20]
+WARNING: [Synth 8-8895] 'wire_3' is already implicitly declared on line 13 [E:/Turing Complete/custom_components/DEC.v:22]
+WARNING: [Synth 8-8895] 'wire_4' is already implicitly declared on line 13 [E:/Turing Complete/custom_components/DEC.v:23]
+WARNING: [Synth 8-8895] 'wire_5' is already implicitly declared on line 14 [E:/Turing Complete/custom_components/DEC.v:24]
+WARNING: [Synth 8-8895] 'wire_6' is already implicitly declared on line 13 [E:/Turing Complete/custom_components/DEC.v:26]
+INFO: [Synth 8-11241] undeclared symbol 'wire_2', assumed default net type 'wire' [E:/Turing Complete/custom_components/RegisterPlus.v:13]
+INFO: [Synth 8-11241] undeclared symbol 'wire_4', assumed default net type 'wire' [E:/Turing Complete/custom_components/RegisterPlus.v:13]
+INFO: [Synth 8-11241] undeclared symbol 'wire_0', assumed default net type 'wire' [E:/Turing Complete/custom_components/RegisterPlus.v:13]
+INFO: [Synth 8-11241] undeclared symbol 'wire_3', assumed default net type 'wire' [E:/Turing Complete/custom_components/RegisterPlus.v:13]
+INFO: [Synth 8-11241] undeclared symbol 'wire_1', assumed default net type 'wire' [E:/Turing Complete/custom_components/RegisterPlus.v:15]
+WARNING: [Synth 8-8895] 'wire_0' is already implicitly declared on line 13 [E:/Turing Complete/custom_components/RegisterPlus.v:17]
+WARNING: [Synth 8-8895] 'wire_1' is already implicitly declared on line 15 [E:/Turing Complete/custom_components/RegisterPlus.v:19]
+WARNING: [Synth 8-8895] 'wire_2' is already implicitly declared on line 13 [E:/Turing Complete/custom_components/RegisterPlus.v:21]
+WARNING: [Synth 8-8895] 'wire_3' is already implicitly declared on line 13 [E:/Turing Complete/custom_components/RegisterPlus.v:22]
+WARNING: [Synth 8-8895] 'wire_4' is already implicitly declared on line 13 [E:/Turing Complete/custom_components/RegisterPlus.v:24]
+INFO: [Synth 8-11241] undeclared symbol 'wire_7', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:12]
+INFO: [Synth 8-11241] undeclared symbol 'wire_0_6', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:12]
+INFO: [Synth 8-11241] undeclared symbol 'wire_1', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:13]
+INFO: [Synth 8-11241] undeclared symbol 'wire_28', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:13]
+INFO: [Synth 8-11241] undeclared symbol 'wire_5', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:13]
+INFO: [Synth 8-11241] undeclared symbol 'wire_40', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:13]
+INFO: [Synth 8-11241] undeclared symbol 'wire_23', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:13]
+INFO: [Synth 8-11241] undeclared symbol 'wire_17', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:13]
+INFO: [Synth 8-11241] undeclared symbol 'wire_6', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:13]
+INFO: [Synth 8-11241] undeclared symbol 'wire_26', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:14]
+INFO: [Synth 8-11241] undeclared symbol 'wire_8', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:14]
+INFO: [Synth 8-11241] undeclared symbol 'wire_21', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:14]
+INFO: [Synth 8-11241] undeclared symbol 'wire_32', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:14]
+INFO: [Synth 8-11241] undeclared symbol 'wire_22', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:14]
+INFO: [Synth 8-11241] undeclared symbol 'wire_38', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:14]
+INFO: [Synth 8-11241] undeclared symbol 'wire_31', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:14]
+INFO: [Synth 8-11241] undeclared symbol 'wire_19', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:14]
+INFO: [Synth 8-11241] undeclared symbol 'wire_10', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:15]
+INFO: [Synth 8-11241] undeclared symbol 'wire_24', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:15]
+INFO: [Synth 8-11241] undeclared symbol 'wire_18', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:15]
+INFO: [Synth 8-11241] undeclared symbol 'wire_14', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:15]
+INFO: [Synth 8-11241] undeclared symbol 'wire_12', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:15]
+INFO: [Synth 8-11241] undeclared symbol 'wire_33', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:15]
+INFO: [Synth 8-11241] undeclared symbol 'wire_0', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:16]
+INFO: [Synth 8-11241] undeclared symbol 'wire_16', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:17]
+INFO: [Synth 8-11241] undeclared symbol 'wire_27', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:17]
+INFO: [Synth 8-11241] undeclared symbol 'wire_37_0', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:17]
+INFO: [Synth 8-11241] undeclared symbol 'wire_34', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:18]
+INFO: [Synth 8-11241] undeclared symbol 'wire_37_1', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:19]
+INFO: [Synth 8-11241] undeclared symbol 'wire_20', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:20]
+INFO: [Synth 8-11241] undeclared symbol 'wire_13', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:21]
+INFO: [Synth 8-11241] undeclared symbol 'wire_9', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:21]
+INFO: [Synth 8-11241] undeclared symbol 'wire_3', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:21]
+INFO: [Synth 8-11241] undeclared symbol 'wire_41', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:22]
+INFO: [Synth 8-11241] undeclared symbol 'wire_11_1', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:22]
+INFO: [Synth 8-11241] undeclared symbol 'wire_4', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:23]
+INFO: [Synth 8-11241] undeclared symbol 'wire_11_0', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:23]
+INFO: [Synth 8-11241] undeclared symbol 'wire_15', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:24]
+INFO: [Synth 8-11241] undeclared symbol 'wire_25', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:24]
+INFO: [Synth 8-11241] undeclared symbol 'wire_39', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:25]
+INFO: [Synth 8-11241] undeclared symbol 'wire_29', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:26]
+INFO: [Synth 8-11241] undeclared symbol 'wire_36', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:28]
+INFO: [Synth 8-11241] undeclared symbol 'wire_30', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:31]
+INFO: [Synth 8-11241] undeclared symbol 'wire_2', assumed default net type 'wire' [E:/Turing Complete/OVERTURE.v:31]
+INFO: [Common 17-14] Message 'Synth 8-11241' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-8895] 'wire_0' is already implicitly declared on line 16 [E:/Turing Complete/OVERTURE.v:40]
+WARNING: [Synth 8-8895] 'wire_0_0' is already implicitly declared on line 36 [E:/Turing Complete/OVERTURE.v:41]
+WARNING: [Synth 8-8895] 'wire_0_1' is already implicitly declared on line 37 [E:/Turing Complete/OVERTURE.v:42]
+WARNING: [Synth 8-8895] 'wire_0_2' is already implicitly declared on line 38 [E:/Turing Complete/OVERTURE.v:43]
+WARNING: [Synth 8-8895] 'wire_0_3' is already implicitly declared on line 35 [E:/Turing Complete/OVERTURE.v:44]
+WARNING: [Synth 8-8895] 'wire_0_4' is already implicitly declared on line 34 [E:/Turing Complete/OVERTURE.v:45]
+WARNING: [Synth 8-8895] 'wire_0_5' is already implicitly declared on line 33 [E:/Turing Complete/OVERTURE.v:46]
+WARNING: [Synth 8-8895] 'wire_0_6' is already implicitly declared on line 12 [E:/Turing Complete/OVERTURE.v:47]
+WARNING: [Synth 8-8895] 'wire_1' is already implicitly declared on line 13 [E:/Turing Complete/OVERTURE.v:49]
+WARNING: [Synth 8-8895] 'wire_2' is already implicitly declared on line 31 [E:/Turing Complete/OVERTURE.v:50]
+WARNING: [Synth 8-8895] 'wire_3' is already implicitly declared on line 21 [E:/Turing Complete/OVERTURE.v:51]
+WARNING: [Synth 8-8895] 'wire_4' is already implicitly declared on line 23 [E:/Turing Complete/OVERTURE.v:52]
+WARNING: [Synth 8-8895] 'wire_5' is already implicitly declared on line 13 [E:/Turing Complete/OVERTURE.v:53]
+WARNING: [Synth 8-8895] 'wire_6' is already implicitly declared on line 13 [E:/Turing Complete/OVERTURE.v:54]
+WARNING: [Synth 8-8895] 'wire_7' is already implicitly declared on line 12 [E:/Turing Complete/OVERTURE.v:55]
+WARNING: [Synth 8-8895] 'wire_8' is already implicitly declared on line 14 [E:/Turing Complete/OVERTURE.v:57]
+WARNING: [Synth 8-8895] 'wire_9' is already implicitly declared on line 21 [E:/Turing Complete/OVERTURE.v:58]
+WARNING: [Synth 8-8895] 'wire_10' is already implicitly declared on line 15 [E:/Turing Complete/OVERTURE.v:59]
+WARNING: [Synth 8-8895] 'wire_11' is already implicitly declared on line 33 [E:/Turing Complete/OVERTURE.v:60]
+WARNING: [Synth 8-8895] 'wire_11_0' is already implicitly declared on line 23 [E:/Turing Complete/OVERTURE.v:61]
+WARNING: [Synth 8-8895] 'wire_11_1' is already implicitly declared on line 22 [E:/Turing Complete/OVERTURE.v:62]
+WARNING: [Synth 8-8895] 'wire_12' is already implicitly declared on line 15 [E:/Turing Complete/OVERTURE.v:64]
+WARNING: [Synth 8-8895] 'wire_13' is already implicitly declared on line 21 [E:/Turing Complete/OVERTURE.v:65]
+WARNING: [Synth 8-8895] 'wire_14' is already implicitly declared on line 15 [E:/Turing Complete/OVERTURE.v:66]
+WARNING: [Synth 8-8895] 'wire_15' is already implicitly declared on line 24 [E:/Turing Complete/OVERTURE.v:67]
+WARNING: [Synth 8-8895] 'wire_16' is already implicitly declared on line 17 [E:/Turing Complete/OVERTURE.v:68]
+WARNING: [Synth 8-8895] 'wire_17' is already implicitly declared on line 13 [E:/Turing Complete/OVERTURE.v:69]
+WARNING: [Synth 8-8895] 'wire_18' is already implicitly declared on line 15 [E:/Turing Complete/OVERTURE.v:70]
+WARNING: [Synth 8-8895] 'wire_19' is already implicitly declared on line 14 [E:/Turing Complete/OVERTURE.v:71]
+WARNING: [Synth 8-8895] 'wire_20' is already implicitly declared on line 20 [E:/Turing Complete/OVERTURE.v:73]
+WARNING: [Synth 8-8895] 'wire_21' is already implicitly declared on line 14 [E:/Turing Complete/OVERTURE.v:74]
+WARNING: [Synth 8-8895] 'wire_22' is already implicitly declared on line 14 [E:/Turing Complete/OVERTURE.v:75]
+WARNING: [Synth 8-8895] 'wire_23' is already implicitly declared on line 13 [E:/Turing Complete/OVERTURE.v:76]
+WARNING: [Synth 8-8895] 'wire_24' is already implicitly declared on line 15 [E:/Turing Complete/OVERTURE.v:77]
+WARNING: [Synth 8-8895] 'wire_25' is already implicitly declared on line 24 [E:/Turing Complete/OVERTURE.v:78]
+WARNING: [Synth 8-8895] 'wire_26' is already implicitly declared on line 14 [E:/Turing Complete/OVERTURE.v:79]
+WARNING: [Synth 8-8895] 'wire_27' is already implicitly declared on line 17 [E:/Turing Complete/OVERTURE.v:80]
+WARNING: [Synth 8-8895] 'wire_28' is already implicitly declared on line 13 [E:/Turing Complete/OVERTURE.v:81]
+WARNING: [Synth 8-8895] 'wire_29' is already implicitly declared on line 26 [E:/Turing Complete/OVERTURE.v:82]
+WARNING: [Synth 8-8895] 'wire_30' is already implicitly declared on line 31 [E:/Turing Complete/OVERTURE.v:83]
+WARNING: [Synth 8-8895] 'wire_31' is already implicitly declared on line 14 [E:/Turing Complete/OVERTURE.v:84]
+WARNING: [Synth 8-8895] 'wire_32' is already implicitly declared on line 14 [E:/Turing Complete/OVERTURE.v:85]
+WARNING: [Synth 8-8895] 'wire_33' is already implicitly declared on line 15 [E:/Turing Complete/OVERTURE.v:86]
+WARNING: [Synth 8-8895] 'wire_34' is already implicitly declared on line 18 [E:/Turing Complete/OVERTURE.v:87]
+INFO: [Common 17-14] Message 'Synth 8-8895' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-6157] synthesizing module 'OVERTURE' [E:/Turing Complete/OVERTURE.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Switch' [E:/Turing Complete/builtin_components/TC_Switch.v:1]
+	Parameter UUID bound to: 64'b0000000000000000000000000000000000000000000000000000000000000011 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Switch' (0#1) [E:/Turing Complete/builtin_components/TC_Switch.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Splitter8' [E:/Turing Complete/builtin_components/TC_Splitter8.v:1]
+	Parameter UUID bound to: 64'b0001011101001000000100111111111101101001100010100001110100110000 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Splitter8' (0#1) [E:/Turing Complete/builtin_components/TC_Splitter8.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Decoder3' [E:/Turing Complete/builtin_components/TC_Decoder3.v:1]
+	Parameter UUID bound to: 64'b0011111010100010111010101100111111011100001000000110110010000011 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Decoder3' (0#1) [E:/Turing Complete/builtin_components/TC_Decoder3.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Decoder3__parameterized0' [E:/Turing Complete/builtin_components/TC_Decoder3.v:1]
+	Parameter UUID bound to: 64'b0011010111101101111110100010000100100000001000100100001010011010 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Decoder3__parameterized0' (0#1) [E:/Turing Complete/builtin_components/TC_Decoder3.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_IOSwitch' [E:/Turing Complete/builtin_components/TC_IOSwitch.v:1]
+	Parameter UUID bound to: 64'b0000000000000000000000000000000000000000000000000000000000000100 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'TC_IOSwitch' (0#1) [E:/Turing Complete/builtin_components/TC_IOSwitch.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Switch__parameterized0' [E:/Turing Complete/builtin_components/TC_Switch.v:1]
+	Parameter UUID bound to: 64'b0000111001010010011000101100001011011110001010101110001011100001 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Switch__parameterized0' (0#1) [E:/Turing Complete/builtin_components/TC_Switch.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Not' [E:/Turing Complete/builtin_components/TC_Not.v:1]
+	Parameter UUID bound to: 64'b0011100110110111011010110100101101011000011100101111010000000110 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000000001 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Not' (0#1) [E:/Turing Complete/builtin_components/TC_Not.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Switch__parameterized1' [E:/Turing Complete/builtin_components/TC_Switch.v:1]
+	Parameter UUID bound to: 64'b0011100011100101100010101110000110110110111110011000011010001111 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Switch__parameterized1' (0#1) [E:/Turing Complete/builtin_components/TC_Switch.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Xor' [E:/Turing Complete/builtin_components/TC_Xor.v:1]
+	Parameter UUID bound to: 64'b0010101000110011000000001111111001000101101011101011111101111101 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000000001 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Xor' (0#1) [E:/Turing Complete/builtin_components/TC_Xor.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Counter' [E:/Turing Complete/builtin_components/TC_Counter.v:1]
+	Parameter UUID bound to: 64'b0000000101001000000011110001110011011111000100001110011000110011 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000001000 
+	Parameter count bound to: 8'b00000001 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Counter' (0#1) [E:/Turing Complete/builtin_components/TC_Counter.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Switch__parameterized2' [E:/Turing Complete/builtin_components/TC_Switch.v:1]
+	Parameter UUID bound to: 64'b0001110110001011000110110001011100101101011000000001010010001101 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Switch__parameterized2' (0#1) [E:/Turing Complete/builtin_components/TC_Switch.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Switch__parameterized3' [E:/Turing Complete/builtin_components/TC_Switch.v:1]
+	Parameter UUID bound to: 64'b0001000000000100000011110110000011100000110100111000011110100111 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Switch__parameterized3' (0#1) [E:/Turing Complete/builtin_components/TC_Switch.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Switch__parameterized4' [E:/Turing Complete/builtin_components/TC_Switch.v:1]
+	Parameter UUID bound to: 64'b0011100000110000111000011001101000001000110101111011000110111010 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Switch__parameterized4' (0#1) [E:/Turing Complete/builtin_components/TC_Switch.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Switch__parameterized5' [E:/Turing Complete/builtin_components/TC_Switch.v:1]
+	Parameter UUID bound to: 64'b0010101001011100000000110010101101010101110111111101110101001001 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Switch__parameterized5' (0#1) [E:/Turing Complete/builtin_components/TC_Switch.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Not__parameterized0' [E:/Turing Complete/builtin_components/TC_Not.v:1]
+	Parameter UUID bound to: 64'b0011111000101111111111101101001011101011001100111100001100001100 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000000001 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Not__parameterized0' (0#1) [E:/Turing Complete/builtin_components/TC_Not.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Not__parameterized1' [E:/Turing Complete/builtin_components/TC_Not.v:1]
+	Parameter UUID bound to: 64'b0001011101001101110101110101100000000100111000111010011010000000 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000000001 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Not__parameterized1' (0#1) [E:/Turing Complete/builtin_components/TC_Not.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Or' [E:/Turing Complete/builtin_components/TC_Or.v:1]
+	Parameter UUID bound to: 64'b0011011111000000111010111111111110000001010011011110010001100110 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000000001 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Or' (0#1) [E:/Turing Complete/builtin_components/TC_Or.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Program8_1' [E:/Turing Complete/builtin_components/TC_Program8_1.v:1]
+	Parameter UUID bound to: 64'b0000000000000000000000000000000000000000000000000000000000000101 
+	Parameter DEFAULT_FILE_NAME bound to: Program8_1_5.w8.bin - type: string 
+	Parameter ARG_SIG bound to: Program8_1_5=%s - type: string 
+INFO: [Synth 8-251] param Program8_1_5.w8.bin [E:/Turing Complete/builtin_components/TC_Program8_1.v:21]
+WARNING: [Synth 8-11581] system function call 'value$plusargs' not supported [E:/Turing Complete/builtin_components/TC_Program8_1.v:22]
+INFO: [Synth 8-251] loading Program8_1_5.w8.bin [E:/Turing Complete/builtin_components/TC_Program8_1.v:23]
+WARNING: [Synth 8-11581] system function call 'fopen' not supported [E:/Turing Complete/builtin_components/TC_Program8_1.v:24]
+INFO: [Synth 8-251] file not found [E:/Turing Complete/builtin_components/TC_Program8_1.v:33]
+WARNING: [Synth 8-11581] system task call 'fclose' not supported [E:/Turing Complete/builtin_components/TC_Program8_1.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'TC_Program8_1' (0#1) [E:/Turing Complete/builtin_components/TC_Program8_1.v:1]
+INFO: [Synth 8-6157] synthesizing module 'DEC' [E:/Turing Complete/custom_components/DEC.v:1]
+	Parameter UUID bound to: 64'b0010100110110110110000100111001101101000110111011100010010000111 
+INFO: [Synth 8-6157] synthesizing module 'TC_Splitter8__parameterized0' [E:/Turing Complete/builtin_components/TC_Splitter8.v:1]
+	Parameter UUID bound to: 64'b0010001010010110111010000011111000111111111001010010101000000001 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Splitter8__parameterized0' (0#1) [E:/Turing Complete/builtin_components/TC_Splitter8.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Decoder3__parameterized1' [E:/Turing Complete/builtin_components/TC_Decoder3.v:1]
+	Parameter UUID bound to: 64'b0011101110010111101010111001101001100001011111001001111110111011 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Decoder3__parameterized1' (0#1) [E:/Turing Complete/builtin_components/TC_Decoder3.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'DEC' (0#1) [E:/Turing Complete/custom_components/DEC.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [E:/Turing Complete/custom_components/ALU.v:1]
+	Parameter UUID bound to: 64'b0001100111101011111110001101000001000010010111101011111011101000 
+INFO: [Synth 8-6157] synthesizing module 'TC_Splitter8__parameterized1' [E:/Turing Complete/builtin_components/TC_Splitter8.v:1]
+	Parameter UUID bound to: 64'b0011110110000010011101100110011101101010111110111011010100010111 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Splitter8__parameterized1' (0#1) [E:/Turing Complete/builtin_components/TC_Splitter8.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Not__parameterized2' [E:/Turing Complete/builtin_components/TC_Not.v:1]
+	Parameter UUID bound to: 64'b0010110011011010100001110111011111100001110001010111111101110101 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Not__parameterized2' (0#1) [E:/Turing Complete/builtin_components/TC_Not.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Not__parameterized3' [E:/Turing Complete/builtin_components/TC_Not.v:1]
+	Parameter UUID bound to: 64'b0001110000000001100011011010000000001010000010101100111010000011 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Not__parameterized3' (0#1) [E:/Turing Complete/builtin_components/TC_Not.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Or__parameterized0' [E:/Turing Complete/builtin_components/TC_Or.v:1]
+	Parameter UUID bound to: 64'b0001011101100101011011001010000110000010110111010000000001110100 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Or__parameterized0' (0#1) [E:/Turing Complete/builtin_components/TC_Or.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Or__parameterized1' [E:/Turing Complete/builtin_components/TC_Or.v:1]
+	Parameter UUID bound to: 64'b0011111010000101101100011110000101000110110001010000100010100100 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Or__parameterized1' (0#1) [E:/Turing Complete/builtin_components/TC_Or.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Not__parameterized4' [E:/Turing Complete/builtin_components/TC_Not.v:1]
+	Parameter UUID bound to: 64'b0000110101111101010000010100001110000001011000000111100111010001 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Not__parameterized4' (0#1) [E:/Turing Complete/builtin_components/TC_Not.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Not__parameterized5' [E:/Turing Complete/builtin_components/TC_Not.v:1]
+	Parameter UUID bound to: 64'b0001010001101000001111100101110110101000011001101011010011011100 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Not__parameterized5' (0#1) [E:/Turing Complete/builtin_components/TC_Not.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Add' [E:/Turing Complete/builtin_components/TC_Add.v:1]
+	Parameter UUID bound to: 64'b0010110010001000000110111100000010110010000000111001100110111001 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Add' (0#1) [E:/Turing Complete/builtin_components/TC_Add.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Add__parameterized0' [E:/Turing Complete/builtin_components/TC_Add.v:1]
+	Parameter UUID bound to: 64'b0010011011001101110011101001011110110010000001100000100011011111 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Add__parameterized0' (0#1) [E:/Turing Complete/builtin_components/TC_Add.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Neg' [E:/Turing Complete/builtin_components/TC_Neg.v:1]
+	Parameter UUID bound to: 64'b0011000101000001000010001110110011100101111100101110101001010010 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Neg' (0#1) [E:/Turing Complete/builtin_components/TC_Neg.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Mux' [E:/Turing Complete/builtin_components/TC_Mux.v:1]
+	Parameter UUID bound to: 64'b0000100010110010000011001110000111110011111011101001000100100111 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Mux' (0#1) [E:/Turing Complete/builtin_components/TC_Mux.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Mux__parameterized0' [E:/Turing Complete/builtin_components/TC_Mux.v:1]
+	Parameter UUID bound to: 64'b0011101011001010000010001011001001000100101010111000100011110001 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Mux__parameterized0' (0#1) [E:/Turing Complete/builtin_components/TC_Mux.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Mux__parameterized1' [E:/Turing Complete/builtin_components/TC_Mux.v:1]
+	Parameter UUID bound to: 64'b0001001110100110010001111000001010001001111011110101011010100111 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Mux__parameterized1' (0#1) [E:/Turing Complete/builtin_components/TC_Mux.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Mux__parameterized2' [E:/Turing Complete/builtin_components/TC_Mux.v:1]
+	Parameter UUID bound to: 64'b0010000011101001000011000001010111101001100001000001000110111000 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Mux__parameterized2' (0#1) [E:/Turing Complete/builtin_components/TC_Mux.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Mux__parameterized3' [E:/Turing Complete/builtin_components/TC_Mux.v:1]
+	Parameter UUID bound to: 64'b0001111010011111110101100011111010011111111100101101001011101001 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Mux__parameterized3' (0#1) [E:/Turing Complete/builtin_components/TC_Mux.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (0#1) [E:/Turing Complete/custom_components/ALU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'COND' [E:/Turing Complete/custom_components/COND.v:1]
+	Parameter UUID bound to: 64'b0011001110001001111101110010000001011111000011100010101111110011 
+INFO: [Synth 8-6157] synthesizing module 'TC_Splitter8__parameterized2' [E:/Turing Complete/builtin_components/TC_Splitter8.v:1]
+	Parameter UUID bound to: 64'b0001000001100111000111100000100111101011000111110110010101001011 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Splitter8__parameterized2' (0#1) [E:/Turing Complete/builtin_components/TC_Splitter8.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Splitter8__parameterized3' [E:/Turing Complete/builtin_components/TC_Splitter8.v:1]
+	Parameter UUID bound to: 64'b0000011001100001011010000011101111110110110111000001010011001011 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Splitter8__parameterized3' (0#1) [E:/Turing Complete/builtin_components/TC_Splitter8.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Nor' [E:/Turing Complete/builtin_components/TC_Nor.v:1]
+	Parameter UUID bound to: 64'b0011111000011101000110001100001110000101010111101010001011001001 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000000001 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Nor' (0#1) [E:/Turing Complete/builtin_components/TC_Nor.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Nor__parameterized0' [E:/Turing Complete/builtin_components/TC_Nor.v:1]
+	Parameter UUID bound to: 64'b0011101111001011101010000101011101111100010001110100110000000010 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000000001 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Nor__parameterized0' (0#1) [E:/Turing Complete/builtin_components/TC_Nor.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Nor__parameterized1' [E:/Turing Complete/builtin_components/TC_Nor.v:1]
+	Parameter UUID bound to: 64'b0001100111011001101110001010001101111111000101011101011110101111 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000000001 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Nor__parameterized1' (0#1) [E:/Turing Complete/builtin_components/TC_Nor.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Nor__parameterized2' [E:/Turing Complete/builtin_components/TC_Nor.v:1]
+	Parameter UUID bound to: 64'b0011011111101101100010011101000100110001000000011100011110001011 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000000001 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Nor__parameterized2' (0#1) [E:/Turing Complete/builtin_components/TC_Nor.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_And' [E:/Turing Complete/builtin_components/TC_And.v:1]
+	Parameter UUID bound to: 64'b0010000011100101100100100111000111101011100001110100111111100001 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000000001 
+INFO: [Synth 8-6155] done synthesizing module 'TC_And' (0#1) [E:/Turing Complete/builtin_components/TC_And.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_And__parameterized0' [E:/Turing Complete/builtin_components/TC_And.v:1]
+	Parameter UUID bound to: 64'b0011010100010111000111011100011100101101101011011010110010010101 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000000001 
+INFO: [Synth 8-6155] done synthesizing module 'TC_And__parameterized0' (0#1) [E:/Turing Complete/builtin_components/TC_And.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_And__parameterized1' [E:/Turing Complete/builtin_components/TC_And.v:1]
+	Parameter UUID bound to: 64'b0010101000111001111100011001111100101000010111111110110000001010 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000000001 
+INFO: [Synth 8-6155] done synthesizing module 'TC_And__parameterized1' (0#1) [E:/Turing Complete/builtin_components/TC_And.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_And__parameterized2' [E:/Turing Complete/builtin_components/TC_And.v:1]
+	Parameter UUID bound to: 64'b0000111001010010111001001100011101110111000001111111101011101100 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000000001 
+INFO: [Synth 8-6155] done synthesizing module 'TC_And__parameterized2' (0#1) [E:/Turing Complete/builtin_components/TC_And.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Xor__parameterized0' [E:/Turing Complete/builtin_components/TC_Xor.v:1]
+	Parameter UUID bound to: 64'b0001000111111010110110111111000101100111010001001010001111010101 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000000001 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Xor__parameterized0' (0#1) [E:/Turing Complete/builtin_components/TC_Xor.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_And__parameterized3' [E:/Turing Complete/builtin_components/TC_And.v:1]
+	Parameter UUID bound to: 64'b0011110001000011111100000100101110001111001011100101011011101111 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000000001 
+INFO: [Synth 8-6155] done synthesizing module 'TC_And__parameterized3' (0#1) [E:/Turing Complete/builtin_components/TC_And.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Or__parameterized2' [E:/Turing Complete/builtin_components/TC_Or.v:1]
+	Parameter UUID bound to: 64'b0010110110101001001000101011001110011011001101110110011111000011 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000000001 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Or__parameterized2' (0#1) [E:/Turing Complete/builtin_components/TC_Or.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'COND' (0#1) [E:/Turing Complete/custom_components/COND.v:1]
+INFO: [Synth 8-6157] synthesizing module 'RegisterPlus' [E:/Turing Complete/custom_components/RegisterPlus.v:1]
+	Parameter UUID bound to: 64'b0000000000000000000000000000000000000000000000011000011010100000 
+INFO: [Synth 8-6157] synthesizing module 'TC_Register' [E:/Turing Complete/builtin_components/TC_Register.v:1]
+	Parameter UUID bound to: 64'b0000000000000000000000000000000000000000000000011000011010100001 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Register' (0#1) [E:/Turing Complete/builtin_components/TC_Register.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Constant' [E:/Turing Complete/builtin_components/TC_Constant.v:2]
+	Parameter UUID bound to: 64'b0000000000000000000000000000000000000000000000011000011010100010 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000000001 
+	Parameter value bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Constant' (0#1) [E:/Turing Complete/builtin_components/TC_Constant.v:2]
+INFO: [Synth 8-6157] synthesizing module 'TC_Switch__parameterized6' [E:/Turing Complete/builtin_components/TC_Switch.v:1]
+	Parameter UUID bound to: 64'b0011000111001001010101001000111000101110110011111010010011101110 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Switch__parameterized6' (0#1) [E:/Turing Complete/builtin_components/TC_Switch.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RegisterPlus' (0#1) [E:/Turing Complete/custom_components/RegisterPlus.v:1]
+INFO: [Synth 8-6157] synthesizing module 'RegisterPlus__parameterized0' [E:/Turing Complete/custom_components/RegisterPlus.v:1]
+	Parameter UUID bound to: 64'b0000000000000000000000000000000000000000000000011010110110110000 
+INFO: [Synth 8-6157] synthesizing module 'TC_Register__parameterized0' [E:/Turing Complete/builtin_components/TC_Register.v:1]
+	Parameter UUID bound to: 64'b0000000000000000000000000000000000000000000000011010110110110001 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Register__parameterized0' (0#1) [E:/Turing Complete/builtin_components/TC_Register.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Constant__parameterized0' [E:/Turing Complete/builtin_components/TC_Constant.v:2]
+	Parameter UUID bound to: 64'b0000000000000000000000000000000000000000000000011010110110110010 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000000001 
+	Parameter value bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Constant__parameterized0' (0#1) [E:/Turing Complete/builtin_components/TC_Constant.v:2]
+INFO: [Synth 8-6157] synthesizing module 'TC_Switch__parameterized7' [E:/Turing Complete/builtin_components/TC_Switch.v:1]
+	Parameter UUID bound to: 64'b0011000111001001010101001000111000101110110011111000111111111110 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Switch__parameterized7' (0#1) [E:/Turing Complete/builtin_components/TC_Switch.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RegisterPlus__parameterized0' (0#1) [E:/Turing Complete/custom_components/RegisterPlus.v:1]
+INFO: [Synth 8-6157] synthesizing module 'RegisterPlus__parameterized1' [E:/Turing Complete/custom_components/RegisterPlus.v:1]
+	Parameter UUID bound to: 64'b0000000000000000000000000000000000000000000000011101010011000000 
+INFO: [Synth 8-6157] synthesizing module 'TC_Register__parameterized1' [E:/Turing Complete/builtin_components/TC_Register.v:1]
+	Parameter UUID bound to: 64'b0000000000000000000000000000000000000000000000011101010011000001 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Register__parameterized1' (0#1) [E:/Turing Complete/builtin_components/TC_Register.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Constant__parameterized1' [E:/Turing Complete/builtin_components/TC_Constant.v:2]
+	Parameter UUID bound to: 64'b0000000000000000000000000000000000000000000000011101010011000010 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000000001 
+	Parameter value bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Constant__parameterized1' (0#1) [E:/Turing Complete/builtin_components/TC_Constant.v:2]
+INFO: [Synth 8-6157] synthesizing module 'TC_Switch__parameterized8' [E:/Turing Complete/builtin_components/TC_Switch.v:1]
+	Parameter UUID bound to: 64'b0011000111001001010101001000111000101110110011111111011010001110 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Switch__parameterized8' (0#1) [E:/Turing Complete/builtin_components/TC_Switch.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RegisterPlus__parameterized1' (0#1) [E:/Turing Complete/custom_components/RegisterPlus.v:1]
+INFO: [Synth 8-6157] synthesizing module 'RegisterPlus__parameterized2' [E:/Turing Complete/custom_components/RegisterPlus.v:1]
+	Parameter UUID bound to: 64'b0000000000000000000000000000000000000000000000100010001011100000 
+INFO: [Synth 8-6157] synthesizing module 'TC_Register__parameterized2' [E:/Turing Complete/builtin_components/TC_Register.v:1]
+	Parameter UUID bound to: 64'b0000000000000000000000000000000000000000000000100010001011100001 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Register__parameterized2' (0#1) [E:/Turing Complete/builtin_components/TC_Register.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Constant__parameterized2' [E:/Turing Complete/builtin_components/TC_Constant.v:2]
+	Parameter UUID bound to: 64'b0000000000000000000000000000000000000000000000100010001011100010 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000000001 
+	Parameter value bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Constant__parameterized2' (0#1) [E:/Turing Complete/builtin_components/TC_Constant.v:2]
+INFO: [Synth 8-6157] synthesizing module 'TC_Switch__parameterized9' [E:/Turing Complete/builtin_components/TC_Switch.v:1]
+	Parameter UUID bound to: 64'b0011000111001001010101001000111000101110110011000000000010101110 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Switch__parameterized9' (0#1) [E:/Turing Complete/builtin_components/TC_Switch.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RegisterPlus__parameterized2' (0#1) [E:/Turing Complete/custom_components/RegisterPlus.v:1]
+INFO: [Synth 8-6157] synthesizing module 'RegisterPlus__parameterized3' [E:/Turing Complete/custom_components/RegisterPlus.v:1]
+	Parameter UUID bound to: 64'b0000000000000000000000000000000000000000000000100100100111110000 
+INFO: [Synth 8-6157] synthesizing module 'TC_Register__parameterized3' [E:/Turing Complete/builtin_components/TC_Register.v:1]
+	Parameter UUID bound to: 64'b0000000000000000000000000000000000000000000000100100100111110001 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Register__parameterized3' (0#1) [E:/Turing Complete/builtin_components/TC_Register.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Constant__parameterized3' [E:/Turing Complete/builtin_components/TC_Constant.v:2]
+	Parameter UUID bound to: 64'b0000000000000000000000000000000000000000000000100100100111110010 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000000001 
+	Parameter value bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Constant__parameterized3' (0#1) [E:/Turing Complete/builtin_components/TC_Constant.v:2]
+INFO: [Synth 8-6157] synthesizing module 'TC_Switch__parameterized10' [E:/Turing Complete/builtin_components/TC_Switch.v:1]
+	Parameter UUID bound to: 64'b0011000111001001010101001000111000101110110011000110101110111110 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Switch__parameterized10' (0#1) [E:/Turing Complete/builtin_components/TC_Switch.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RegisterPlus__parameterized3' (0#1) [E:/Turing Complete/custom_components/RegisterPlus.v:1]
+INFO: [Synth 8-6157] synthesizing module 'RegisterPlus__parameterized4' [E:/Turing Complete/custom_components/RegisterPlus.v:1]
+	Parameter UUID bound to: 64'b0001000000011110101110110000111101000110011100101010001000000110 
+INFO: [Synth 8-6157] synthesizing module 'TC_Register__parameterized4' [E:/Turing Complete/builtin_components/TC_Register.v:1]
+	Parameter UUID bound to: 64'b0001000000011110101110110000111101000110011100101010001000000111 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Register__parameterized4' (0#1) [E:/Turing Complete/builtin_components/TC_Register.v:1]
+INFO: [Synth 8-6157] synthesizing module 'TC_Constant__parameterized4' [E:/Turing Complete/builtin_components/TC_Constant.v:2]
+	Parameter UUID bound to: 64'b0001000000011110101110110000111101000110011100101010001000000100 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000000001 
+	Parameter value bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Constant__parameterized4' (0#1) [E:/Turing Complete/builtin_components/TC_Constant.v:2]
+INFO: [Synth 8-6157] synthesizing module 'TC_Switch__parameterized11' [E:/Turing Complete/builtin_components/TC_Switch.v:1]
+	Parameter UUID bound to: 64'b0010000111010111111011111000000101101000101111001000000001001000 
+	Parameter BIT_WIDTH bound to: 64'b0000000000000000000000000000000000000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'TC_Switch__parameterized11' (0#1) [E:/Turing Complete/builtin_components/TC_Switch.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RegisterPlus__parameterized4' (0#1) [E:/Turing Complete/custom_components/RegisterPlus.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'OVERTURE' (0#1) [E:/Turing Complete/OVERTURE.v:1]
+WARNING: [Synth 8-3848] Net mem in module/entity TC_Program8_1 does not have driver. [E:/Turing Complete/builtin_components/TC_Program8_1.v:14]
+WARNING: [Synth 8-7129] Port clk in module COND is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst in module COND is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk in module ALU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst in module ALU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk in module DEC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst in module DEC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk in module TC_Program8_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[7] in module TC_Program8_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[6] in module TC_Program8_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[5] in module TC_Program8_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[4] in module TC_Program8_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[3] in module TC_Program8_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[2] in module TC_Program8_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[1] in module TC_Program8_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[0] in module TC_Program8_1 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 917.027 ; gain = 583.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 917.027 ; gain = 583.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010iclg225-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 917.027 ; gain = 583.617
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010iclg225-1L
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 917.027 ; gain = 583.617
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input    9 Bit       Adders := 2     
+	   2 Input    8 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	                8 Bit    Registers := 14    
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input    8 Bit        Muxes := 22    
+	   2 Input    1 Bit        Muxes := 24    
+	   8 Input    1 Bit        Muxes := 24    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1082.133 ; gain = 748.723
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1106.988 ; gain = 773.578
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1106.988 ; gain = 773.578
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1307.727 ; gain = 974.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1307.727 ; gain = 974.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1307.727 ; gain = 974.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1307.727 ; gain = 974.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1307.727 ; gain = 974.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1307.727 ; gain = 974.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |OBUF |    10|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    10|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1307.727 ; gain = 974.316
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 129 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1307.727 ; gain = 974.316
+Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1307.727 ; gain = 974.316
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1321.758 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1429.664 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 4c45d5c7
+INFO: [Common 17-83] Releasing license: Synthesis
+271 Infos, 120 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 1429.664 ; gain = 1101.492
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1429.664 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/Vivado Projects/Overture/Overture.runs/synth_1/OVERTURE.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file OVERTURE_utilization_synth.rpt -pb OVERTURE_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri May 16 13:58:34 2025...

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z010iclg225-1L" LaunchTime="1747406212">
+  <File Type="REPORTS-TCL" Name="OVERTURE_reports.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="OVERTURE_power_summary_routed.pb"/>
+  <File Type="BITSTR-MMI" Name="OVERTURE.mmi"/>
+  <File Type="OPT-DRC" Name="OVERTURE_drc_opted.rpt"/>
+  <File Type="BG-DRC" Name="OVERTURE.drc"/>
+  <File Type="ROUTE-STATUS-PB" Name="OVERTURE_route_status.pb"/>
+  <File Type="BG-BGN" Name="OVERTURE.bgn"/>
+  <File Type="PLACE-UTIL" Name="OVERTURE_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="OVERTURE_utilization_placed.pb"/>
+  <File Type="PLACE-IO" Name="OVERTURE_io_placed.rpt"/>
+  <File Type="BG-BIN" Name="OVERTURE.bin"/>
+  <File Type="PLACE-CTRL" Name="OVERTURE_control_sets_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="OVERTURE_power_routed.rpx"/>
+  <File Type="BITSTR-MSK" Name="OVERTURE.msk"/>
+  <File Type="BITSTR-RBT" Name="OVERTURE.rbt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="OVERTURE_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="OVERTURE_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="OVERTURE_route_status.rpt"/>
+  <File Type="PA-TCL" Name="OVERTURE.tcl"/>
+  <File Type="ROUTE-PWR" Name="OVERTURE_power_routed.rpt"/>
+  <File Type="ROUTE-DRC" Name="OVERTURE_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="OVERTURE_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="OVERTURE_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="OVERTURE.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="OVERTURE_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="OVERTURE_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="OVERTURE.ltx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="OVERTURE_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-SIMILARITY" Name="OVERTURE_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="OVERTURE.vdi"/>
+  <File Type="ROUTE-CLK" Name="OVERTURE_clock_utilization_routed.rpt"/>
+  <File Type="PA-DCP" Name="OVERTURE.dcp"/>
+  <File Type="ROUTE-BUS-SKEW" Name="OVERTURE_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="OVERTURE_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="OVERTURE_bus_skew_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="OVERTURE_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="OVERTURE_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="OVERTURE_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="OVERTURE_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="OVERTURE_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="OVERTURE.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="OVERTURE_bus_skew_postroute_physopted.pb"/>
+  <File Type="BITSTR-NKY" Name="OVERTURE.nky"/>
+  <File Type="BITSTR-BMM" Name="OVERTURE_bd.bmm"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-HWDEF" Name="OVERTURE.hwdef"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="OVERTURE_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DCP" Name="OVERTURE_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="OVERTURE_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="OVERTURE_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMING-PB" Name="OVERTURE_timing_summary_routed.pb"/>
+  <File Type="OPT-DCP" Name="OVERTURE_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="OVERTURE_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="OVERTURE_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="OVERTURE_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="OVERTURE_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="OVERTURE_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="OVERTURE_postroute_physopt_bb.dcp"/>
+  <File Type="PDI-FILE" Name="OVERTURE.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="OVERTURE_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="OVERTURE_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="OVERTURE.rcfi"/>
+  <File Type="CFI_FILE" Name="OVERTURE.cfi"/>
+  <File Type="RNPI_FILE" Name="OVERTURE.rnpi"/>
+  <File Type="NPI_FILE" Name="OVERTURE.npi"/>
+  <File Type="RBD_FILE" Name="OVERTURE.rbd"/>
+  <File Type="ROUTE-RQS" Name="OVERTURE_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="OVERTURE_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../../Turing Complete/custom_components/ALU.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Turing Complete/custom_components/COND.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Turing Complete/custom_components/DEC.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Turing Complete/custom_components/RegisterPlus.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Turing Complete/builtin_components/TC_Add.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Turing Complete/builtin_components/TC_And.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Turing Complete/builtin_components/TC_Constant.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Turing Complete/builtin_components/TC_Counter.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Turing Complete/builtin_components/TC_Decoder3.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Turing Complete/builtin_components/TC_IOSwitch.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Turing Complete/builtin_components/TC_Mux.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Turing Complete/builtin_components/TC_Neg.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Turing Complete/builtin_components/TC_Nor.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Turing Complete/builtin_components/TC_Not.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Turing Complete/builtin_components/TC_Or.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Turing Complete/builtin_components/TC_Program8_1.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Turing Complete/builtin_components/TC_Register.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Turing Complete/builtin_components/TC_Splitter8.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Turing Complete/builtin_components/TC_Switch.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Turing Complete/builtin_components/TC_Xor.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Turing Complete/OVERTURE.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="OVERTURE"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/OVERTURE.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>
