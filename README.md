@@ -1,5 +1,7 @@
-
 # Overture Custom Super Simple Intel 8085 Inspired CPU Architecture
+_Overture_, from the French _ouverture_ meaning "opening," represents both a musical introduction that establishes themes to be developed later and a preliminary proposal or initiative.
+This project aims to serve as an _introductory platform_ for electronics students who want a real introduction to VLSI design.
+
 ## 🧠 Overview
 This is project primarily borrows from the Von-Neumann Architecture of CPU design and is more directly inspired by the Intel 8085.
 
