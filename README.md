@@ -103,6 +103,12 @@ This is project primarily borrows from the Von-Neumann Architecture of CPU desig
 
 4. Optionally, export to an FPGA board and connect via UART/GPIO for I/O.
 
+## 🛠️ Building in Icarus Verilog
+
+1. Clone this Github repository.
+2. Install Icarus Verilog (if not done already).
+3. In the ``` Verilog Source ``` folder run the ``` build-OVERTURE-iverilog.cmd ``` file.
+
 ---
 
 ## ⚙️ Applications & Use Cases
