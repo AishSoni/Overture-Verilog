@@ -89,6 +89,9 @@ This is project primarily borrows from the Von-Neumann Architecture of CPU desig
 | **Condition Module**    | Enables conditional operations and flag checking      |
 | **Memory Interface**    | Uses 8-bit address and data buses                     |
 
+### Fabrication Preview
+![vivado_IpGcjiPmjG](https://github.com/user-attachments/assets/46ed6a1a-8713-4580-98c1-dcf5edb0ec09)
+
 ---
 ## 🛠️ Building in Vivado
 
